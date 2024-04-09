@@ -1,0 +1,145 @@
+/**************************/
+/* HEADER */
+/**************************/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 4.8rem;
+    background-color: #fdf2e9;
+
+}
+
+.logo {
+    height: 2.2rem;
+}
+
+/**************************/
+/* HEADER */
+/**************************/
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+    list-style: none;
+}
+
+.main-nav-link {
+    font-size: 1.8rem;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all .3s;
+}
+
+.main-nav-link:hover {
+    color: #e67e22;
+}
+
+.cta-nav {
+    background-color: #e67e22;
+    padding: 1.2rem 2.4rem;
+    border-radius: 9px;
+    color: #fff;
+}
+
+.cta-nav:hover {
+    background: #e16b04;
+    color: #fff;
+}
+
+/**************************/
+/* HERO SECTION */
+/**************************/
+
+.hero__section {
+    background-color: #fdf2e9;
+    padding: 4.8rem 0 9.8rem 0;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 130rem;
+    gap: 9rem;
+    padding: 0 5.5rem;
+    margin: 0 auto;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.primary-heading {
+    font-size: 4.5rem;
+    color: #333;
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.5px;
+    margin-bottom: 3rem;
+}
+
+.para-hero {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.9rem;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: inherit;
+    padding: 1.6rem 3.2rem;
+    background-color: #e67e22;
+    border-radius: 9px;
+    transition: all .4s;
+}
+
+.btn-f:hover {
+    background-color: #e16b04;
+}
+
+.btn-s {
+    color: #333;
+    background-color: #fff;
+    margin-left: 1.5rem;
+}
+
+.btn-s:hover {
+    background-color: #fdf2e9;
+    border: inset 0 0 0 3px #fff;
+}
+
+.dileverd-features {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 8rem;
+}
+
+.dliverd-meals img {
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    margin-right: -1.8rem;
+    border: 4px solid #fff;
+}
+
+.meals-para {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+span {
+    color: #e16b04;
+    font-weight: 700;
+}
+
+.dliverd-meals img img:last-child {
+    margin: 0;
+}
